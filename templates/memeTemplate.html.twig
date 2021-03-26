@@ -1,0 +1,22 @@
+<div class="col-sm-12 col-md-4" style="margin-bottom: 10px;">
+  <div class="card">
+    <img class="card-img-top"
+      src="{{ url }}"
+      alt="Meme image"
+      style="height: 400px;" />
+    <div class="card-body">
+      <p class="card-text">
+        <strong>{{ title }}</strong>
+      </p>
+      <p class="card-text">
+        {{ description }}
+      </p>
+      <a href="urediMeme.php?meme={{ id }}" class="btn btn-primary">
+        Uredi
+      </a>
+      <a href="izbrisiMeme.php?meme={{ id }}" class="btn btn-danger">
+        Izbriši
+      </a>
+    </div>
+  </div>
+</div>
